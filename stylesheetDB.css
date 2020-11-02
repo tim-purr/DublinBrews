@@ -1,0 +1,547 @@
+
+
+* {
+  font-family: 'Open Sans', 'Noto Sans JP', sans-serif;;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  text-align: center;
+  margin: 0% 15% 0% 15%;
+
+
+}
+
+@media (min-width: 48rem) {
+  :root {
+    font-size: : calc(100% + ((1vw - .48)*1.389)); }
+
+}
+@media (min-width: 120rem) {
+  :root {
+  font-size: 2rem;
+}
+}
+
+nav {
+  background-color: #3F5466;
+  padding: 0.8rem 0rem 0.5rem 0rem;
+  margin: 0;
+  width: 70vw;
+  font: 2rem;
+  text-align: center;
+
+}
+
+header {
+  text-align: center;
+  width: 70vw;
+  padding: 0;
+  position: relative;
+
+}
+
+.navBar {
+  color: #e6e6e6;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  position: relative;
+
+}
+
+.subNavBar {
+  color: #e6e6e6;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 0.7rem;
+  display: inline-block;
+  text-align: justify;
+  padding: 0rem 1rem 0rem 1.2rem;
+  margin: 0% 0% 0% 5%;
+
+
+
+}
+
+.subNavJP {
+  padding: 0;
+  margin: 0;
+  line-height: 0.5;
+
+}
+
+li .navBar:hover {
+  color: #cfcfc4;
+}
+
+.navBar:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navBar::after {
+  position: absolute;
+  bottom: -4px;
+  left: 55%;
+  content: '';
+  width: 40%;
+  height: 2px;
+  background: #cfcfc4;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+.navBar:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+ul {
+  list-style: none;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+
+}
+
+li {
+  display: inline-block;
+  text-align: justify;
+  padding: 0;
+  margin: 0
+  transition: all 0.2s ease;
+
+}
+
+.navBar {
+  display: inline-block;
+  text-align: justify;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  transition: all 0.2s ease;
+  padding: 0% 0% 0% 5%;
+
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  width: 70vw;
+  text-align: left;
+}
+
+
+.ToppagePicture {
+  position: relative;
+  width: 70vw;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 6px 10px 0 rgba(48, 45, 45, 0.5);
+  border: none 0.13px #999999;
+  border-radius: 0px 0px 40px 40px;
+  text-align: center;
+
+
+}
+
+.websiteName1 {
+  position: absolute;
+  top: 10.8vw;
+  left: 20.3vw;
+  font-size: 9vw;
+  line-height: 0.78;
+  font-family: 'Dancing Script', cursive;
+  color: #3F5466;
+  font-kerning: auto;
+  font: bold;
+  margin: 0;
+  padding: 0;
+
+}
+
+.websiteName {
+  position: absolute;
+  top: 11vw;
+  left: 20vw;
+  font-size: 9vw;
+  line-height: 0.78;
+  font-family: 'Dancing Script', cursive;
+  color: #cfcfc4;
+  font-kerning: auto;
+  font: bold;
+  margin: 0;
+  padding: 0;
+
+}
+
+.subtitle1 {
+
+  pudding: 0rem 0.2rem 0.2rem 0rem;
+  margin: 0;
+  font-size: 1.2rem;
+  font-kerning: auto;
+  color: #3F5466;
+  position: absolute;
+  top: 25vw;
+  left: 22vw;
+
+}
+
+.subtitle2 {
+  pudding: 0rem 0.2rem 0.2rem 0rem;
+  margin: 0;
+  font-size: 1rem;
+  font-kerning: auto;
+  color: #3F5466;
+  position: absolute;
+  top: 26.3vw;
+  left: 22vw;
+
+}
+.About {
+  text-align: center;
+  padding: 2% 2% 0% 3%;
+  margin: 10% 2% 0% 2%;
+  font-size: 2rem;
+  color: #3F5466;
+
+  }
+
+.Intro {
+  padding: 0;
+  margin: 5% 0% 15% 0%;
+  text-align: center;
+  clear: both;
+
+
+}
+
+.Intro1 {
+  text-align: center;
+  text-indent: 0;
+  padding: 0;
+  margin: 0% 0% 5% 0%;
+  font-size: 1.2rem;
+  word-break: normal;
+  padding: 0;
+  vertical-align: top;
+  color: #3F5466;
+
+
+}
+
+
+
+.article {
+      width: 30vw;
+      height: 29vh;
+      padding: 0% 2% 0% 0%;
+      margin: 5% 0% 10% 0%;
+      background-color: #FFF;
+      border: none 0.13px #999999;
+      border-radius: 40px;
+      box-shadow: 0 6px 10px 0 rgba(48, 45, 45, 0.5);
+      text-align: left;
+      display: flex;
+      word-break: normal;
+      font-size: 1rem;
+      color: #3F5466;
+      min-width: 480px;
+      max-width: 1092px
+
+    }
+
+.imageCafes {
+
+  width: 60%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 40px 0px 0px 40px;
+  vertical-align: top;
+
+
+
+}
+
+.CafeLink {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  color: #cfcfc4;
+  padding: 0;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+
+}
+
+.CafeLink:hover {
+  color: #3F5466;
+  font: bold;
+
+}
+#hoverMoving {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    bottom: 0px;
+}
+#hoverMoving:hover {
+	 cursor: pointer;
+	 text-decoration: none;
+   bottom: 2px;
+   transition: 0.2s ease bottom;
+
+}
+
+/*#hoverMoving:hover {
+	 cursor: pointer;
+	 text-decoration: none;
+   position: absolute;
+	-webkit-animation: hoverMoving 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-moz-animation: hoverMoving 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: hoverMoving 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes hoverMoving {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+@-moz-keyframes hoverMoving {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+@keyframes hoverMoving {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}*/
+
+
+span {
+  color: #3F5466;
+
+}
+
+.cafeName {
+  font-size: 0.rem;
+  margin: 10% 0% 3% 10%;
+
+}
+
+.cafeAddress {
+  font-size: 1rem;
+  padding: 0% 0% 0% 10%;
+  margin: 0;
+
+}
+
+
+
+.link-to-DublinBrews-instagram {
+  width: 70%;
+}
+
+.LinkMyIG {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  cursor:pointer;
+  text-align: center;
+  padding: 5% 5% 5% 0%;
+  font-size: 0.8rem;
+  margin: 40% 0% 0% 15%;
+  border: 0.2px solid #3F5466;
+  display: flex;
+  text-align: center;
+}
+
+
+.LinkMyIG {
+  position: relative;
+  display: flex;
+  text-align: center;
+
+}
+
+.btn-text {
+  width: 100%;
+  height: 100%;
+  color: #3F5466;
+  z-index: 10;
+}
+
+.btn-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  display: block;
+  background: #3F5466;
+  z-index: -1;
+  transition: .5s;
+  padding: 0;
+}
+
+.btn-text:hover{
+  color: #e6e6e6;
+}
+
+.btn-text:hover:before{
+  width: 100%;
+}
+
+#About {
+  padding-top: 25%;
+  margin-top: -25%;
+
+}
+#Cafes {
+  padding-top: 20%;
+  margin-top: -20%;
+
+}
+.btn-go-top {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  width: 8%
+  height: 8%;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  padding: 5%;
+
+}
+
+.btn-go-to:hover {
+
+
+
+
+}
+
+footer {
+  text-align: center;
+  height: 7vw;
+  padding: 0;
+  margin: 0% 0% 2% 0%;
+  background-color: #3F5466;
+
+}
+
+.footerMenu {
+  display: block;
+  padding: 1.5% 0% 1% 5%;
+  margin: 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.footer-btn {
+  color: #e6e6e6;
+  decoration: none;
+}
+
+.contact {
+  font-size: 2rem;
+  padding: 1%;
+  margin: 0;
+  color: #3F5466;
+  text-align: center;
+  display: block;
+}
+
+.JP_fontSize {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  color: #3F5466;
+
+
+}
+
+.subs {
+  padding: 0;
+  margin: 5% 0% 0% 0%;
+
+}
+
+.Contact_share_yourfavCafe {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  color: #3F5466;
+  display: block;
+  text-align: center;
+
+
+}
+.Contact_share_yourfavCafeJP {
+  font-size: 0.7rem;
+  padding: 0;
+  margin: 0;
+  color: #3F5466;
+  display: block;
+  text-align: center;
+
+
+}
+
+small {
+  background-color: #3F5466;
+  color: #cfcfc4;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.footer_CopyRight {
+  background-color: #3F5466;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.address {
+  background-color: #3F5466;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #e6e6e6;
+
+}
+
+.email {
+  color: #e6e6e6;
+}
+
+
+
+
+
+1
