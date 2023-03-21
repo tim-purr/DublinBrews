@@ -220,7 +220,6 @@ div {
 }
 
 .Intro1 {
-  line-height: 5;
   text-align: center;
   text-indent: 0;
   padding: 0;
@@ -230,6 +229,7 @@ div {
   padding: 0;
   vertical-align: top;
   color: #3F5466;
+line-height: 5;
 
 
 }
